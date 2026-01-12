@@ -179,7 +179,7 @@ h2 {
   }
   .inputTop {
     background: #f9f9f9;
-    color: #fff;
+    color: #000;
   }
 
 }
