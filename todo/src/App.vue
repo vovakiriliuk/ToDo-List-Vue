@@ -171,4 +171,10 @@ h2 {
   text-align: center;
   color: #777;
 }
+
+@media (prefers-color-scheme: dark) {
+  main {
+    background: red;
+  }
+}
 </style>
