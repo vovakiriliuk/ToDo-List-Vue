@@ -56,6 +56,7 @@ onMounted(() => {
             type="text"
             placeholder="Add a new task..."
             v-model="input_content"
+            class="inputTop"
         />
         <input class="button" type="submit" value="Add" />
       </section>
@@ -173,8 +174,13 @@ h2 {
 }
 
 @media (prefers-color-scheme: dark) {
-  main {
-    background: red;
+  .content {
+    color: #000;
   }
+  .inputTop {
+    background: #f9f9f9;
+    color: #fff;
+  }
+
 }
 </style>
